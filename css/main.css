@@ -19,35 +19,65 @@ body {
   background-color: #ffffff;
   font-family: "Noto Serif", serif;
   color: #000000;
+  font-size: 24px;
 }
 
-/* .navbar-light, 
+.navbar-light,
 .navbar-brand,
 .navbar-nav,
 .nav-link {
-    color: $white !important;
-    transition: all 0.5s ease-in-out;
-
-    &:hover,
-    &:focus {
-        color: $primary !important;
-        transition: all 0.5s ease-in-out;
-    }
+  color: #000000 !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-// Override color del navbar-toggler
-.navbar-dark, 
+.navbar-light:hover, .navbar-light:focus,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-nav:hover,
+.navbar-nav:focus,
+.nav-link:hover,
+.nav-link:focus {
+  color: #106085 !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-dark,
 .navbar-toggler {
-    color: rgba($white, 0.3);
-
-    &:hover,
-    &:focus {
-        color: rgba($white, 0.3);
-    }
+  color: rgba(0, 0, 0, 0.3);
 }
- */
+
+.navbar-dark:hover, .navbar-dark:focus,
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  color: rgba(141, 189, 218, 0.3);
+}
+
 .header__img {
   max-width: 250px;
   height: auto;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #106085 !important;
+  -webkit-text-decoration-line: underline !important;
+          text-decoration-line: underline !important;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .nav-link.active::after {
+    content: ".";
+    position: absolute;
+    bottom: -1rem;
+    right: 50%;
+    left: 50%;
+    font-size: 42px;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
 }
 /*# sourceMappingURL=main.css.map */
