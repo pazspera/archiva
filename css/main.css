@@ -22,13 +22,32 @@ body {
   font-size: 24px;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.full-width-img {
+  height: 70vh;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mainImg {
+  background-image: url(../img/img_index.jpg);
+}
+
 .navbar-light,
 .navbar-brand,
 .navbar-nav,
 .nav-link {
   color: #000000 !important;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .navbar-light:hover, .navbar-light:focus,
@@ -39,8 +58,8 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: #106085 !important;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .navbar-dark,
@@ -52,6 +71,10 @@ body {
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   color: rgba(141, 189, 218, 0.3);
+}
+
+header {
+  background-color: #ffffff;
 }
 
 .header__img {
@@ -72,8 +95,9 @@ body {
     content: ".";
     position: absolute;
     bottom: -1rem;
-    right: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
     font-size: 42px;
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;

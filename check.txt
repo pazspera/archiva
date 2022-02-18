@@ -1,1 +1,2 @@
 - hover on btn
+- img en tamaño más grande

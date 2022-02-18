@@ -1,0 +1,9 @@
+.full-width-img {
+    height: 70vh;
+    @include background-image;
+}
+
+// Imágenes de fondo
+#mainImg {
+    background-image: url(../img/img_index.jpg);
+}

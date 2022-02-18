@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 @import "abstract/variables";
+@import "abstract/mixins";
 
 @import "base/resets";
+
+@import "components/full-width-img";
 
 @import "layout/header";
