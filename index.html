@@ -6,12 +6,50 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="./css/bootstrap.min.css" />
-        <!-- CSS -->
-        <link rel="stylesheet" href="./css/main.css">
+		<!-- CSS -->
+		<link rel="stylesheet" href="./css/main.css" />
 		<title>Archiva</title>
 	</head>
 	<body>
-		<h1>Hola Mundo</h1>
+		<!-- Menú navegación -->
+		<header class="sticky-top">
+			<div class="container-fluid">
+				<div class="row d-flex justify-content-center p-3">
+					<img class="header__img" src="./img/logo.png" alt="Logo Archiva" />
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link disabled">Disabled</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
 		<!-- Bootstrap JS -->
 		<script src="./js/bootstrap.bundle.min.js"></script>
 	</body>
