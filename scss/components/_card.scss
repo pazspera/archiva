@@ -1,0 +1,26 @@
+// Override estilo cards Bootstrap
+.card {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+// Estilos cards
+.card__icon {
+    height: 125px;
+    width: 125px;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.card-title {
+    color: $primary-dark;
+    font-weight: 700;
+    text-align: center;
+    font-size: $size4;
+}
