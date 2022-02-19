@@ -66,6 +66,7 @@ li {
   display: block;
   font-weight: 700;
   color: #106085;
+  border-radius: 0.5rem;
 }
 
 .btn--large {
@@ -92,6 +93,19 @@ li {
 .card-img-top {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
+}
+
+.card {
+  border-radius: 0.5rem !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
+          box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .card-body {
