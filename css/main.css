@@ -162,4 +162,20 @@ header {
     min-width: fit-content;
   }
 }
+
+.footer {
+  background-color: #8dbdda;
+}
+
+.footer__img {
+  height: 42px;
+  width: 42px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.footer__text {
+  color: #106085;
+}
 /*# sourceMappingURL=main.css.map */
