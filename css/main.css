@@ -33,19 +33,51 @@ h1 {
   color: #106085;
 }
 
-@media (min-width: 992px) {
-  h1 {
-    font-size: 42px;
-  }
-}
-
 li {
   list-style-position: inside;
 }
 
 p,
-ul {
+ul,
+ol {
   line-height: 1.8;
+}
+
+p,
+ul,
+ol,
+li {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 42px;
+  }
+  p,
+  ul,
+  ol,
+  li {
+    font-size: 24px;
+  }
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #8dbdda;
+  display: block;
+  font-weight: 700;
+  color: #106085;
+}
+
+.btn--large {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .btn--large {
+    font-size: 28px;
+  }
 }
 
 .full-width-img {
@@ -92,6 +124,11 @@ ul {
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   color: rgba(141, 189, 218, 0.3);
+}
+
+.navbar-light,
+.navbar {
+  padding: 0;
 }
 
 header {

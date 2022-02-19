@@ -1,0 +1,17 @@
+.btn {
+    padding: 0.75rem 1.5rem;
+    background-color: $primary-medium;
+    display: block;
+    font-weight: 700;
+    color: $primary-dark;
+
+    &--large {
+        font-size: $size5;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn--large {
+        font-size: $size3;
+    }
+}

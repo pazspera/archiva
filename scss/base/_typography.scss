@@ -1,20 +1,36 @@
 h1 {
-    font-weight: 700;
-    font-size: $size2;
-    color: $primary-dark;
-}
-
-@media(min-width: 992px){
-    h1 {
-        font-size: $size1;
-    }
+	font-weight: 700;
+	font-size: $size2;
+	color: $primary-dark;
 }
 
 li {
-    list-style-position: inside;
+	list-style-position: inside;
 }
 
-p, 
-ul {
-    line-height: 1.8;
+p,
+ul,
+ol {
+	line-height: 1.8;
+}
+
+p,
+ul,
+ol,
+li {
+	font-size: $size5;
+}
+
+// Incrementa tamaño tipografía para desktop
+@media (min-width: 992px) {
+	h1 {
+		font-size: $size1;
+	}
+
+	p,
+	ul,
+	ol,
+	li {
+		font-size: $size4;
+	}
 }
