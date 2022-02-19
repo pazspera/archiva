@@ -10,6 +10,11 @@
     font-size: $size5;
 }
 
+.btn--small {
+    font-size: $size6;
+    max-width: 50%;
+}
+
 @media(min-width: 992px) {
     .btn--large {
         font-size: $size4;
