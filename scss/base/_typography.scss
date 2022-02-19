@@ -1,3 +1,7 @@
+html {
+	font-size: $font-size-mobile;
+}
+
 h1 {
 	font-weight: 700;
 	font-size: $size2;
@@ -11,7 +15,7 @@ li {
 p,
 ul,
 ol {
-	line-height: 1.8;
+	line-height: 1.6;
 }
 
 p,
@@ -23,14 +27,7 @@ li {
 
 // Incrementa tamaño tipografía para desktop
 @media (min-width: 992px) {
-	h1 {
-		font-size: $size1;
-	}
-
-	p,
-	ul,
-	ol,
-	li {
-		font-size: $size4;
+	html {
+		font-size: $font-size-desktop;
 	}
 }

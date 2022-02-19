@@ -4,14 +4,14 @@
     display: block;
     font-weight: 700;
     color: $primary-dark;
-
-    &--large {
-        font-size: $size5;
-    }
 }
 
-@media (min-width: 992px) {
+.btn--large {
+    font-size: $size5;
+}
+
+@media(min-width: 992px) {
     .btn--large {
-        font-size: $size3;
+        font-size: $size4;
     }
 }

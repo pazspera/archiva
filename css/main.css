@@ -19,7 +19,7 @@ body {
   background-color: #ffffff;
   font-family: "Noto Serif", serif;
   color: #000000;
-  font-size: 24px;
+  font-size: 1.25rem;
 }
 
 img {
@@ -27,9 +27,13 @@ img {
   display: block;
 }
 
+html {
+  font-size: 16px;
+}
+
 h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 1.95rem;
   color: #106085;
 }
 
@@ -40,25 +44,19 @@ li {
 p,
 ul,
 ol {
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 p,
 ul,
 ol,
 li {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
-  h1 {
-    font-size: 42px;
-  }
-  p,
-  ul,
-  ol,
-  li {
-    font-size: 24px;
+  html {
+    font-size: 18px;
   }
 }
 
@@ -71,12 +69,12 @@ li {
 }
 
 .btn--large {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
   .btn--large {
-    font-size: 28px;
+    font-size: 1.25rem;
   }
 }
 
@@ -136,7 +134,7 @@ header {
 }
 
 .header__img {
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
 }
 
@@ -156,7 +154,7 @@ header {
     left: 50%;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
-    font-size: 42px;
+    font-size: 2.44rem;
     min-width: -webkit-fit-content;
     min-width: -moz-fit-content;
     min-width: fit-content;
@@ -168,8 +166,8 @@ header {
 }
 
 .footer__img {
-  height: 42px;
-  width: 42px;
+  height: 2.44rem;
+  width: 2.44rem;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -177,5 +175,6 @@ header {
 
 .footer__text {
   color: #106085;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=main.css.map */
