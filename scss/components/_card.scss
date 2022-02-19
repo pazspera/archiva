@@ -45,6 +45,19 @@
     font-weight: 700;
     text-align: center;
     font-size: $size5;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        border-bottom: 4px solid $primary-dark;
+        bottom: -1rem;
+        left: 50%;
+        width: 40%;
+        transform: translate(-50%, 0);
+        font-size: $size1;
+        min-width: fit-content;
+    }
 }
 
 .card-text {

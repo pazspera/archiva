@@ -137,6 +137,22 @@ li {
   font-weight: 700;
   text-align: center;
   font-size: 1rem;
+  position: relative;
+}
+
+.card-title:after {
+  content: "";
+  position: absolute;
+  border-bottom: 4px solid #106085;
+  bottom: -1rem;
+  left: 50%;
+  width: 40%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  font-size: 2.44rem;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .card-text {
