@@ -10,5 +10,9 @@
 // Mixin para sombras
 @mixin shadow {
 	box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
+}
+
+// Mixin transition
+@mixin transition {
 	transition: all 0.2s ease-in-out;
 }

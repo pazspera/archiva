@@ -67,13 +67,13 @@ li {
   font-weight: 700;
   color: #106085;
   border-radius: 0.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn:hover {
   -webkit-box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
           box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
   color: #ffffff;
   background-color: #106085;
 }
@@ -259,6 +259,10 @@ header {
   background-color: #8dbdda;
 }
 
+.footer .iconify:hover {
+  fill: #ffffff;
+}
+
 .footer__img {
   height: 2.44rem;
   width: 2.44rem;
@@ -267,8 +271,26 @@ header {
   max-width: fit-content;
 }
 
+.footer__img:hover {
+  fill: #ffffff;
+}
+
 .footer__text {
   color: #106085;
   font-size: 0.8rem;
+}
+
+.footer__icon {
+  height: 2.44rem;
+  width: 2.44rem;
+  color: #106085;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer__icon:hover {
+  opacity: 0.75;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 /*# sourceMappingURL=main.css.map */

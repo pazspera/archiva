@@ -5,6 +5,7 @@
     font-weight: 700;
     color: $primary-dark;
     border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
 
     &:hover {
         @include shadow();

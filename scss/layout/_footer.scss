@@ -1,11 +1,21 @@
 .footer {
     background-color: $primary-medium;
+
+    .iconify:hover {
+        fill: $white;
+    }
+
+    
 }
 
 .footer__img {
     height: $size1;
     width: $size1;
     max-width: fit-content;
+
+    &:hover {
+        fill: $white;
+    }
 }
 
 .footer__text {
@@ -13,3 +23,14 @@
     font-size: $size6;
 }
 
+.footer__icon {
+    height: $size1;
+    width: $size1;
+    color: $primary-dark;
+    @include transition();
+
+    &:hover {
+        opacity: 0.75;
+        @include transition();
+    }
+}
