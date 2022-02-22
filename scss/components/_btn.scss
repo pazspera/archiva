@@ -5,10 +5,11 @@
     font-weight: 700;
     color: $primary-dark;
     border-radius: 0.5rem;
-    transition: all 0.2s ease-in-out;
+    @include transition();
 
     &:hover {
         @include shadow();
+        @include transition();
         color: $white;
         background-color: $primary-dark;
     }

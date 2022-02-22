@@ -4,12 +4,12 @@
 .navbar-nav,
 .nav-link {
 	color: $black !important;
-	transition: all 0.25s ease-in-out;
+	@include transition();
 
 	&:hover,
 	&:focus {
 		color: $primary-dark !important;
-		transition: all 0.25s ease-in-out;
+		@include transition();
 	}
 }
 

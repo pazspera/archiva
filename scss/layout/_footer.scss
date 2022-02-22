@@ -1,21 +1,5 @@
 .footer {
     background-color: $primary-medium;
-
-    .iconify:hover {
-        fill: $white;
-    }
-
-    
-}
-
-.footer__img {
-    height: $size1;
-    width: $size1;
-    max-width: fit-content;
-
-    &:hover {
-        fill: $white;
-    }
 }
 
 .footer__text {

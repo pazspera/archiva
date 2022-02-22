@@ -13,11 +13,11 @@
 // Estilos cards
 .card {
     border-radius: 0.5rem !important;
-    transition: all 0.2s ease-in-out;
+    @include transition();
 
     &:hover {
-        box-shadow: 0px 0px 24px 12px rgba(16,96,133,0.15);
-        transition: all 0.2s ease-in-out;
+        @include shadow();
+        @include transition();
     }
 }
 

@@ -74,6 +74,8 @@ li {
 .btn:hover {
   -webkit-box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
           box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   color: #ffffff;
   background-color: #106085;
 }
@@ -187,8 +189,8 @@ li {
 .navbar-nav,
 .nav-link {
   color: #000000 !important;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-light:hover, .navbar-light:focus,
@@ -199,8 +201,8 @@ li {
 .nav-link:hover,
 .nav-link:focus {
   color: #106085 !important;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-dark,
@@ -257,22 +259,6 @@ header {
 
 .footer {
   background-color: #8dbdda;
-}
-
-.footer .iconify:hover {
-  fill: #ffffff;
-}
-
-.footer__img {
-  height: 2.44rem;
-  width: 2.44rem;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.footer__img:hover {
-  fill: #ffffff;
 }
 
 .footer__text {
