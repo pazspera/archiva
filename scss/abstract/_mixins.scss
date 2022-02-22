@@ -1,8 +1,14 @@
 // Mixin para imágenes de fondo
 @mixin background-image {
-    max-width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	max-width: 100%;
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+// Mixin para sombras
+@mixin shadow {
+	box-shadow: 0px 0px 24px 12px rgba(16, 96, 133, 0.15);
+	transition: all 0.2s ease-in-out;
 }

@@ -5,6 +5,12 @@
     font-weight: 700;
     color: $primary-dark;
     border-radius: 0.5rem;
+
+    &:hover {
+        @include shadow();
+        color: $white;
+        background-color: $primary-dark;
+    }
 }
 
 .btn--large {
@@ -12,7 +18,7 @@
 }
 
 .btn--small {
-    font-size: $size6;
+    font-size: $size5;
     max-width: 50%;
 }
 
