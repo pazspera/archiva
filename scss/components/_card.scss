@@ -1,65 +1,61 @@
 // Override estilo cards Bootstrap
 .card {
-    border: none !important;
-    border-radius: 0 !important;
+	border: none !important;
+	border-radius: 0 !important;
 }
 
 .card-img,
 .card-img-top {
-    border-top-left-radius: 0 !important;
-    border-top-right-radius: 0 !important;
+	border-top-left-radius: 0 !important;
+	border-top-right-radius: 0 !important;
 }
 
 // Estilos cards
 .card {
-    border-radius: 0.5rem !important;
-    @include transition();
+	border-radius: 0.5rem !important;
+	@include transition();
 
-    &:hover {
-        @include shadow();
-        @include transition();
-    }
+	&:hover {
+		@include shadow();
+		@include transition();
+	}
 }
 
 .card-body {
-    // Hace que los btn queden siempre abajo sin importar
-    // la cantidad de texto
-    display: flex;
-    flex-direction: column;
+	// Hace que los btn queden siempre abajo sin importar
+	// la cantidad de texto
+	display: flex;
+	flex-direction: column;
 
-    .btn {
-        margin-top: auto;
-        align-self: center;
-    }
+	.btn {
+		margin-top: auto;
+		align-self: center;
+	}
 }
 
 .card__icon {
-    height: 115px;
-    width: 115px;
-    padding-top: 1rem;
-    margin: 0 auto;
+	height: 115px;
+	width: 115px;
+	padding-top: 1rem;
+	margin: 0 auto;
 }
 
 .card-title {
-    color: $primary-dark;
-    font-weight: 700;
-    text-align: center;
-    font-size: $size4;
-    position: relative;
+	color: $primary-dark;
+	font-weight: 700;
+	text-align: center;
+	font-size: $size4;
+	position: relative;
 
-    &:after {
-        content: "";
-        position: absolute;
-        border-bottom: 4px solid $primary-dark;
-        bottom: -1rem;
-        left: 50%;
-        width: 40%;
-        transform: translate(-50%, 0);
-        font-size: $size1;
-        min-width: fit-content;
-    }
+	&:after {
+		@include title-decoration;
+		left: 50%;
+		width: 40%;
+		transform: translate(-50%, 0);
+		min-width: fit-content;
+	}
 }
 
 .card-text {
-    font-size: $size5;
+	font-size: $size5;
 }

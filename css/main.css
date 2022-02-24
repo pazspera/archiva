@@ -156,11 +156,11 @@ li {
   position: absolute;
   border-bottom: 4px solid #106085;
   bottom: -1rem;
+  font-size: 2.44rem;
   left: 50%;
   width: 40%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  font-size: 2.44rem;
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -282,5 +282,28 @@ header {
   opacity: 0.75;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.services-title {
+  position: relative;
+}
+
+.services-title:after {
+  content: "";
+  position: absolute;
+  border-bottom: 4px solid #106085;
+  bottom: -1rem;
+  font-size: 2.44rem;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  width: 55%;
+  left: 10%;
+}
+
+@media (min-width: 992px) {
+  .services-title:after {
+    width: 40%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

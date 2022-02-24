@@ -16,3 +16,12 @@
 @mixin transition {
 	transition: all 0.2s ease-in-out;
 }
+
+// Mixin decoración títulos
+@mixin title-decoration {
+	content: "";
+	position: absolute;
+	border-bottom: 4px solid $primary-dark;
+	bottom: -1rem;
+	font-size: $size1;
+}
