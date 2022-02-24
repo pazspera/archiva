@@ -4,7 +4,7 @@ html {
 
 h1 {
 	font-weight: 700;
-	font-size: $size2;
+	font-size: $size3;
 	color: $primary-dark;
 }
 
@@ -29,5 +29,9 @@ li {
 @media (min-width: 992px) {
 	html {
 		font-size: $font-size-desktop;
+	}
+
+	h1 {
+		font-size: $size2;
 	}
 }

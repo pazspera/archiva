@@ -33,7 +33,7 @@ html {
 
 h1 {
   font-weight: 700;
-  font-size: 1.95rem;
+  font-size: 1.56rem;
   color: #106085;
 }
 
@@ -57,6 +57,9 @@ li {
 @media (min-width: 992px) {
   html {
     font-size: 18px;
+  }
+  h1 {
+    font-size: 1.95rem;
   }
 }
 
