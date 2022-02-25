@@ -9,10 +9,27 @@
 	}
 }
 
+.services-title--short {
+	position: relative;
+
+	&:after {
+		@include title-decoration;
+		width: 40%;
+		left: 10%;
+	}
+}
+
 @media (min-width: 992px) {
 	.services-title {
 		&:after {
 			width: 40%;
+		}
+	}
+
+	.services-title--short {
+		&:after {
+			width: 22.5%;
+			left: 5%;
 		}
 	}
 }
