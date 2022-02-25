@@ -191,6 +191,16 @@ li {
   background-image: url(../img/img_contacto.jpg);
 }
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .navbar-light,
 .navbar-brand,
 .navbar-nav,
@@ -266,6 +276,7 @@ header {
 
 .footer {
   background-color: #8dbdda;
+  justify-self: flex-end;
 }
 
 .footer__text {
