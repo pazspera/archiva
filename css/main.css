@@ -191,6 +191,10 @@ li {
   background-image: url(../img/img_contacto.jpg);
 }
 
+#servicesImg {
+  background-image: url(../img/img_servicios.jpg);
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
