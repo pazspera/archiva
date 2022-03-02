@@ -302,6 +302,10 @@ header {
   transition: all 0.2s ease-in-out;
 }
 
+main {
+  min-height: 100vh;
+}
+
 .services-title {
   position: relative;
 }
