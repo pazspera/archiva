@@ -61,12 +61,26 @@
 			<section>
 				<div class="container">
 					<div class="row py-5">
-						<div class="col">
+						<div class="col-12">
 							<h1 class="mb-3">Contáctanos</h1>
 							<p>Déjanos un mensaje. Pronto te contactaremos.</p>
 						</div>
-						<div class="col">
-							<!-- Andrés, agrega el formulario acá -->
+						<div class="col-12 col-lg-10">
+							<form action="#" class="contact-form">
+								<div class="mb-3">
+									<label for="name" class="form-label">Nombre</label>
+									<input type="text" class="form-control" name="name" id="name" title="Nombre es un campo obligatorio" required />
+								</div>
+								<div class="mb-3">
+									<label for="email" class="form-label">E-mail</label>
+									<input type="email" class="form-control" name="email" id="email" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required />
+								</div>
+								<div class="mb-3">
+									<label for="message" class="form-label">Mensaje</label>
+									<textarea class="form-control" name="message" id="message" rows="5" title="Mensaje es un campo obligatorio" required></textarea>
+								</div>
+								<button type="submit" class="btn btn--form btn--large mt-5">Enviar</button>
+							</form>
 						</div>
 					</div>
 				</div>

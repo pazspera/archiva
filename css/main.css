@@ -173,6 +173,20 @@ li {
   font-size: 1rem;
 }
 
+.contact-form label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.btn--form {
+  width: 60%;
+  margin-left: auto;
+}
+
 .full-width-img {
   height: 70vh;
   max-width: 100%;

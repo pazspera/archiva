@@ -1,0 +1,16 @@
+.contact-form {
+	label {
+		font-size: $size5;
+		font-weight: 700;
+	}
+
+	textarea {
+		resize: none;
+	}
+}
+
+// ESTILO PARA BTN FORM, MOVER A BTN
+.btn--form {
+	width: 60%;
+	margin-left: auto;
+}
